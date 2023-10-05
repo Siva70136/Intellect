@@ -1,38 +1,398 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.nav-container {
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.navba {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.btn {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.button {
+  background-color: #e91e63;
+  border-width: 0px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.first-container {
+  display: flex;
+}
+
+.data-container {
+  background-color: aliceblue;
+  padding-left: 30px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.title {
+  width: 299px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: left;
+
+}
+
+.sub {
+  color: #555;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width: 415px;
+}
+
+.video {
+  width: 191px;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+
+}
+
+.watch {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+
+}
+
+.loc {
+  border-radius: 280px;
+  background: #FFF;
+  box-shadow: 0px 22px 38px 0px rgba(0, 34, 19, 0.08);
+  display: flex;
+  flex-shrink: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.symbol {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.image-container {
+  width: 570px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 0px 16px 16px 0px;
+  background: url("https://householdadvice.net/wp-content/uploads/2020/05/Nylon-1.jpg"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head2 {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.second-container {
+  display: flex;
+}
+
+.card-image {
+  width: 311px;
+  height: 220px;
+  flex-shrink: 0;
+}
+
+.data1-container {
+  width: 311px;
+  background-color: aliceblue;
+  padding-left: 30px;
+  border-radius: 0px 0px 16px 16px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.card1 {
+  background-color: transparent;
+  margin: 7px;
+}
+
+.type-room {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.price {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.rating {
+  width: 100px;
+  align-self: flex-end;
+}
+
+.rating-text {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+
+}
+
+.title2 {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  width: 411px;
+}
+
+.sub-title2 {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 368px;
+}
+
+.third-container {
+  display: flex;
+  text-align: left;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+.contact {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 35px;
+  background: rgba(255, 118, 101, 0.80);
+}
+
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sm-card {
+  border-radius: 8px;
+  border: 1px solid #E8E8E8;
+  background: #FFF;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  width: 143px;
+  height: 143px;
+  flex-shrink: 0;
+  margin: 5px;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.card-data {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+}
+
+.fourth-container {
+  display: flex;
+  margin-top: 15px;
+  padding-top: 20px;
+
+}
+
+.data2-container {
+  background-color: aliceblue;
+  padding-left: 30px;
+  border-radius: 0px 10px 10px 0px;
+  text-align: left;
+}
+
+.image {
+  width: 667px;
+  height: 520px;
+  flex-shrink: 0;
+
+}
+
+.title3 {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+
+}
+
+.sub-title3 {
+  color: #555;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 397px;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 30px;
+  text-align: left;
+  margin-top: 35px;
+  width: 1100px;
+  height: 577px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url("https://srv.media.io/storage/task/2023-10-05/ac21b10be1fa44d39ac97002e97317c3.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.visit-container {
+  width: 994px;
+  height: 199px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FFF;
+  padding: 40px;
+  display: flex;
+
+
+}
+
+.title4 {
+  color: #222;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.sub-title4 {
+  color: #555;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 410px;
+}
+
+.search-container {
+  border: 2px solid lightgrey;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: white;
+  width: 436px;
+  height: 56px;
+  flex-shrink: 0;
+  align-self: flex-end;
+
 }
 
-.App-link {
-  color: #61dafb;
+.input1 {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact1 {
+  width: 124px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background: rgba(255, 118, 101, 0.80);
 }
