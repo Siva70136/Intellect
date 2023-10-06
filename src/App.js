@@ -200,7 +200,7 @@ function App() {
         </div>
         <div className='fourth-container container'>
 
-          <img src='https://srv.media.io/storage/task/2023-10-05/49be5d4651aa4bcd9c11adf00d461d09.jpg' alt='pool' className='image' />
+          <img src='https://srv.media.io/storage/task/2023-10-06/0aba9812ec7747c683402287ebd01a5a.jpg' alt='pool' className='image' />
           <div className='data2-container'>
             <h1 className='title3'>Discover our History</h1>
             <p className='sub-title3'>Golden Sands Resort has a rich history dating back over a century. Originally a grand mansion, it transformed into a distinguished hotel.</p>
